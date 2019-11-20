@@ -4,10 +4,10 @@
 #
 Name     : opt_einsum
 Version  : 3.1.0
-Release  : 1
-URL      : https://github.com/dgasmith/opt_einsum/archive/v3.1.0.tar.gz
-Source0  : https://github.com/dgasmith/opt_einsum/archive/v3.1.0.tar.gz
-Summary  : No detailed summary available
+Release  : 2
+URL      : https://files.pythonhosted.org/packages/b8/83/755bd5324777875e9dff19c2e59daec837d0378c09196634524a3d7269ac/opt_einsum-3.1.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/b8/83/755bd5324777875e9dff19c2e59daec837d0378c09196634524a3d7269ac/opt_einsum-3.1.0.tar.gz
+Summary  : Optimizing numpys einsum function
 Group    : Development/Tools
 License  : MIT
 Requires: opt_einsum-license = %{version}-%{release}
@@ -60,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1573495220
+export SOURCE_DATE_EPOCH=1574281911
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
