@@ -4,7 +4,7 @@
 #
 Name     : opt_einsum
 Version  : 3.1.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/b8/83/755bd5324777875e9dff19c2e59daec837d0378c09196634524a3d7269ac/opt_einsum-3.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b8/83/755bd5324777875e9dff19c2e59daec837d0378c09196634524a3d7269ac/opt_einsum-3.1.0.tar.gz
 Summary  : Optimizing numpys einsum function
@@ -46,7 +46,8 @@ python components for the opt_einsum package.
 Summary: python3 components for the opt_einsum package.
 Group: Default
 Requires: python3-core
-Provides: pypi(opt-einsum)
+Provides: pypi(opt_einsum)
+Requires: pypi(numpy)
 
 %description python3
 python3 components for the opt_einsum package.
@@ -61,8 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583192914
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583538038
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
